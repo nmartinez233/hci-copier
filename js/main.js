@@ -13,6 +13,6 @@ function numPadInput(inputId, buttonText) {
     if (length >= 4) {
       return;
     }
-    input.value = input.value + buttonText;
+    input.value = input.value + "*";//input.value + buttonText;
   }
 }
