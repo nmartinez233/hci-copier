@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Copier</title>
+  </head>
+  <body>
+    <h1 id = "accountInstruction">Enter 4-digit account code to start</h1>
+    <input id = "pin" name="pin" maxlength="4">
+
+    <!-- Numpad -->
+    
+    <div>
+      <button onclick="numPadInput('pin', '1')">1</button>
+      <button onclick="numPadInput('pin', '2')">2</button>
+      <button onclick="numPadInput('pin', '3')">3</button>
+    </div>  
+    <div>
+      <button onclick="numPadInput('pin', '4')">4</button>
+      <button onclick="numPadInput('pin', '5')">5</button>
+      <button onclick="numPadInput('pin', '6')">6</button>
+    </div>  
+    <div>
+      <button onclick="numPadInput('pin', '7')">7</button>
+      <button onclick="numPadInput('pin', '8')">8</button>
+      <button onclick="numPadInput('pin', '9')">9</button></div>  
+    <div>
+      <button onclick="numPadInput('pin', '0')">0</button>
+      <button onclick="numPadInput('pin', 'Delete')" id = "delete">Delete</button>
+    </div>  
+    <div><button onclick="numPadInput('pin', 'enter')" id = "enter">Enter</button></div>
+
+    <!-- Keep Script tags at the end of body tag-->
+    <script src="js/main.js"></script>
+
+   
+  </body>
+</html>
