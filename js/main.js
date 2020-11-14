@@ -7,9 +7,7 @@ function numPadInput(inputId, buttonText) {
   }
   else if (buttonText == "Enter") {
     input.value = "";
-  }
-  else if (buttonText == "Return") {
-    
+    return; 
   }
   else {
     if (length >= 4) {
