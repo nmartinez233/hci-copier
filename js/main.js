@@ -1,3 +1,6 @@
+
+
+
 function numPadInput(inputId, buttonText) {
   let input = document.getElementById(inputId);
   let length = input.value.length;
@@ -16,3 +19,4 @@ function numPadInput(inputId, buttonText) {
     input.value = input.value + "*";//input.value + buttonText;
   }
 }
+

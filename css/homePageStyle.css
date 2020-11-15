@@ -1,0 +1,22 @@
+@import "main.css";
+
+/* Home page buttons*/
+#HomePageButtons {
+  margin-top: 80px;
+}
+#NewCopy {
+  width: 715px;
+  height: 150px;
+  margin: 10px;
+  background-color: #E5B557 ;
+}
+#Logout {
+  width: 350px;
+  height: 100px;
+  background-color: #C4C4C4;
+}
+#JobStatus {
+  width: 350px;
+  height: 100px;
+  background-color:#AAC6D1;
+}

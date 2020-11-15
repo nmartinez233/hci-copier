@@ -1,0 +1,31 @@
+@import "main.css";
+
+input {
+  height: 90px;
+  width: 450px;
+  font-size: 30px;
+  text-align: center;
+  
+  margin-bottom: 10px;
+}
+button {
+  left: 0px;
+  width: 250px;
+  height: 75px;
+  font-size: 30px;
+  background-color:#C4C9E7 ;
+  border: 1px solid#A1A6C2 ;
+}
+button:hover {
+  background-color:#a4aacd ;
+  cursor: pointer;
+}
+
+#enter {
+  width: 758px;
+  background-color:#A7C8D4 ;
+}
+#enter:hover {
+  background-color:#8ba3af ;
+  cursor: pointer;
+}

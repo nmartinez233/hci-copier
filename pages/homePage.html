@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/homePageStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Copier</title>
+  </head>
+  <body>
+    
+    <!--Upper bar (Main Buttons)-->
+    <div id = MainBar> 
+      <a href="../index.html"></a><button id ="HomeIconButton"><i class="fa fa-home"></i></button></a>
+      
+      <a href="../index.html"></a><button id ="QuestionIconButton"><i class="fa fa-question-circle"></i></button></a>
+      <p id="datetime"></p>
+      <p id="inkPercentage">Black Ink: 80%</p>
+      <script>
+        var dt = new Date();
+        let date = dt.toLocaleTimeString();
+        document.getElementById("datetime").innerHTML = date.slice(0,-6) + date.slice(-3);
+      </script>
+    </div>
+
+    <!--Home Page Buttons-->
+    <div id = "HomePageButtons">
+      <button id="NewCopy">Make copies</button>
+      <br />
+      <a href=""><button id="JobStatus">Job Status</button></a>
+      <a href="../index.html"><button  id="Logout">Logout</button></a>
+      <a href=""><p>Report an issue</p></a>
+    </div>
+    <div><button id = "Next">Next</button></div>
+
+    
+    <!-- Keep Script tags at the end of body tag-->
+    <script src="../js/main.js"></script>
+
+   
+  </body>
+</html>
