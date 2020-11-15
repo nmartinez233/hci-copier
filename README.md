@@ -1,12 +1,15 @@
 # Splendid Koalas
 ## Finish: Sunday: 5 pm 
 
+[Celine: Done]
 Account code from the starting page 
 Numpad visible as default for account login 
 Public
 ________________________
+[Celine: TODO]
 After 30 sec of inactivity, pop-up with countdown to logout
 ________________________
+[Celine: Done]
 New Job Page
 Make another copy
 Report Issue
@@ -41,6 +44,7 @@ Cancel/Pause button
 Goes to new job page
 ________________________
 Main Button
+[Celine: Done]
 Home (Starting screen) -> Are you sure you want to cancel something like that 
 (?) FAQs
 Back Button
