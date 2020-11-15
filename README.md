@@ -27,11 +27,13 @@ include page numbers
 Change colour if empty
 Deduct num pages for copies and separator
 ________________________
+[Nathaniel] 
 Sides: Questions to make options more intuitive 
 Separator: Ask for yes/no and source in same page 
 Default to No Separator
 Yes, then the paper source becomes clickable 
 ________________________
+[Nathaniel]
 Review Page!
 Final button: Print (Different colour)
 Edit for each option (or go back to first page)
