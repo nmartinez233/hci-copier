@@ -35,7 +35,7 @@ ________________________
 Review Page!
 Final button: Print (Different colour)
 Edit for each option (or go back to first page)
-How many pages used []
+How many pages used 
 
 Loading Page
 How many pages have been printed
