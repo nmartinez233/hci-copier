@@ -33,23 +33,20 @@ button:hover {
 
 /* Next and back button */
 #Next, #Back{
-  position: absolute;
+  margin-top: 90px;
   width: 150px;
   height: 70px;
   border-radius: 5px;
+  z-index: 3;
 }
 #Next:hover, #Back:hover {
   background-color:#a4aacd ;
   cursor: pointer;
 }
 #Next {
-  left:970px;
-  top:520px;
+  margin-left: 550px;
 }
-#Back {
-  left:260px;
-  top:520px;
-}
+
 
 /*Style of upper main bar*/
 #MainBar {
