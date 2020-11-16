@@ -35,14 +35,29 @@
 
     <!--Side Settings Page Buttons-->
     <div id = "Sides">
+
       <h1>Paper Orientation</h1>
+      
       <p id = "accountInstruction">Is your copy single or double-sided?</p>
-      <button id=no onclick="numPadInput('pin', 'N')">Single</button>
-      <button id=yes onclick="numPadInput('pin', 'Y')">Double</button>
+      <div id="CheckBox">
+      <form>
+      <input type="radio" id="choice2" name="choice2" value="Yes" checked>
+      <label for="choice2"> Single</label>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" id="choice1" name="choice2" value="No">
+      <label for="choice1">Double</label><br>
+      </form>
+    </div>
       
       <p id = "accountInstruction">Do you want to <b>make</b> your copies single or double-sided?</p>
-      <button id=no onclick="numPadInput('pin', 'N')">Single</button>
-      <button id=yes onclick="numPadInput('pin', 'Y')">Double</button>
+      <div id="CheckBox">
+        <form>
+        <input type="radio" id="choice2" name="choice2" value="Yes" checked>
+        <label for="choice2"> Single</label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="choice1" name="choice2" value="No">
+        <label for="choice1">Double</label><br>
+        </form>
     </div>
     
     <a href = "printSettings.html"><button id = "Back">Back</button></a>

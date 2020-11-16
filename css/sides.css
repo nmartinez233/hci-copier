@@ -1,33 +1,52 @@
 @import "main.css";
 
-/* Side page buttons*/
-#Sides p{
+/*Checkboxes*/
+#CheckBox{
   text-align: left;
-  margin-left: 50px;
+  margin-left: 250px;
+}
+input[type='radio'] {
+  -webkit-appearance:none;
+  width:30px;
+  height:30px;
+  background:white;
+  border-radius:5px;
+  border:2px solid #555;
+
+  float:left;
+  margin-left: 44px;
+}
+input[type='radio']:checked {
+  background: rgb(51, 58, 72);
+}
+label{
+  font-size: 27px;
+  color: rgb(73, 69, 69);
+  float:left;
+  margin-left: 20px;
 }
 
-#yes {
-  margin-left: 25px;
-  margin-right: 25px;
-  width: 220px;
-  height: 70px;
-  border-radius: 4px;
-  background-color:#5fb15f;
+/*Paper Source*/
+#SeparatorSource {
+  margin-top: 50px;
+  margin-left: 30px;
+  text-align: left;
 }
-#yes:hover {
-  background-color:#a9dda9;
+input.PaperSource {
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  position: absolute;
+  top: 390px;
+  left: 650px;
+}
+input.PaperSource:hover{
   cursor: pointer;
+  background-color: rgb(228, 224, 219);
+}
+sm {
+  float:left;
+  text-decoration: underline;
 }
 
-#no {
-  margin-left: 25px;
-  margin-right: 25px;
-  width: 220px;
-  height: 70px;
-  border-radius: 4px;
-  background-color:#cd7b7b;
-}
-#no:hover {
-  background-color:#d3aeae;
-  cursor: pointer;
-}
