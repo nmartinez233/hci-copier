@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/homePageStyle.css">
+    <link rel="stylesheet" href="../css/sides.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Copier</title>
   </head>
@@ -23,12 +23,19 @@
     </div>
 
     <!--Home Page Buttons-->
-    <div id = "HomePageButtons">
-      <button id="NewCopy">Make copies</button>
-      <br />
-      <a href=""><button id="JobStatus">Job Status</button></a>
-      <a href="../index.html"><button  id="Logout">Logout</button></a>
-      <a href=""><p>Report an issue</p></a>
+    <div id = "Sides">
+    <h1 id = "accountInstruction">Is your copy double sided?
+      </h1>
+        <button id=no onclick="numPadInput('pin', 'N')">No</button>
+        <button id=yes onclick="numPadInput('pin', 'Y')">Yes</button>
+    
+    <h1 id = "accountInstruction">Do you want your copies double sided?
+        <button id=no onclick="numPadInput('pin', 'N')">No</button>
+        <button id=yes onclick="numPadInput('pin', 'Y')">Yes</button>
+      </h1>
+        
+        
+      <a href="seperator_page.html"><button  id="enter">Enter</button></a>
     </div>
     
     <!-- Keep Script tags at the end of body tag-->

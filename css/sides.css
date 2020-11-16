@@ -1,0 +1,43 @@
+@import "main.css";
+
+/* Home page buttons*/
+#HomePageButtons {
+  margin-top: 80px;
+}
+#Logout {
+  width: 350px;
+  height: 100px;
+  background-color: #C4C4C4;
+}
+#yes {
+  width: 350px;
+  height: 100px;
+  background-color:#00FF00;
+}
+#yes:hover {
+  width: 350px;
+  height: 100px;
+  background-color:#228B22;
+}
+
+
+#no {
+  width: 350px;
+  height: 100px;
+  background-color:#FF0000;
+}
+#no:hover {
+  width: 350px;
+  height: 100px;
+  background-color:#8b0000;
+}
+
+#enter {
+  width: 758px;
+  height: 100px;
+  background-color:#A7C8D4 ;
+}
+#enter:hover {
+  background-color:#8ba3af ;
+  cursor: pointer;
+}
