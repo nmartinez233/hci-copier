@@ -1,0 +1,28 @@
+@import "main.css";
+
+#yes {
+  width: 350px;
+  height: 100px;
+  background-color:#228B22;
+}
+#yes:hover {
+  width: 350px;
+  height: 100px;
+  background-color:#228B22;
+}
+
+#print{
+    width: 250px;
+    height: 150px;
+}
+
+#no {
+  width: 350px;
+  height: 100px;
+  background-color:#FF0000;
+}
+#no:hover {
+  width: 350px;
+  height: 100px;
+  background-color:#8b0000;
+}

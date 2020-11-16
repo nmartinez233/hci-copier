@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/seperator_page.css">
+    <link rel="stylesheet" href="../css/review.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Copier</title>
   </head>
@@ -23,34 +23,17 @@
     </div>
 
     <!--Home Page Buttons-->
-    <div>
-        <h1 id = "seperatorPage">Do you want a seperator page?</h1>
-        
-        <button id = no onclick="switch_div(2);">No</button>
-        
-        <button id = yes onclick="switch_div(1);">Yes</button>
-        
-    </div>  
-      
+        <a href="../pages/seperator_page.html"><button id = "print">Edit Seperator Page</button></a>
 
+        <a href="../pages/sides.html"><button id = "print">Edit <br>Sides</button></a>
+        
+      <a href="../pages/brightness.html"><button id = "print">Edit <br>Brightness</button></a>
       
-    <div class="content" id="show_1">
-        <h1 id = "accountInstruction">Select a Bin Source:</h1>
+    <div>
+        <a href="../index.html"><button id = no >Cancel Print</button></a>
         
-      <button onclick="numPadInput('pin', 'A')" id = "seperator">A</button>
-        
-        <button onclick="numPadInput('pin', 'B')" id = "seperator">B</button>
-        
-        <button onclick="numPadInput('pin', 'C')" id = "seperator">C</button>
-        
-        
-        
-      </div>  
-      <div class="content hide" id="show_2">
-          </div>
-      
-      <div><a href="review.html"><button onclick="numPadInput('pin', 'Enter')" id = "enter">Enter</button></a>
-      </div>
+        <a href="../homePage.html"><button id = yes >Print</button></a>
+</div>
     
     <!-- Keep Script tags at the end of body tag-->
     <script src="../js/main.js"></script>
