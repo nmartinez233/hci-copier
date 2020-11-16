@@ -1,60 +1,6 @@
 # Splendid Koalas
-## Finish: Sunday: 5 pm 
 
-[Celine: Done]
-Account code from the starting page 
-Numpad visible as default for account login 
-Public
-________________________
-[Celine: TODO]
-After 30 sec of inactivity, pop-up with countdown to logout
-________________________
-[Celine: Done]
-New Job Page
-Make another copy
-Report Issue
-[Maybe] Current Job status
-Result of home icon
-Logout
-________________________
-[Val]
-Bright, Dark button Icon with degree of darkness  (default normal) // skip
-Copies: better to only have a type option 
-Paper Source Button 
-________________________
-Bin Settings Icons
-Have defaults set
-include page numbers
-Change colour if empty
-Deduct num pages for copies and separator
-________________________
-[Nathaniel] 
-Sides: Questions to make options more intuitive 
-Separator: Ask for yes/no and source in same page 
-Default to No Separator
-Yes, then the paper source becomes clickable 
-________________________
-[Nathaniel]
-Review Page!
-Final button: Print (Different colour)
-Edit for each option (or go back to first page)
-How many pages used 
-
-[Melanie] Loading Page
-How many pages have been printed
-Has dynamic printer status
-Cancel/Pause button 
-Goes to new job page
-________________________
-Main Button
-[Celine: Done]
-Home (Starting screen) -> Are you sure you want to cancel something like that 
-(?) FAQs
-Back Button
-Next Button
-Time in the corner
-Job status/ready to print
-Ink percentage B/W
+Though this is not a fully implemented copier interface, this gives a general overview of what we aimed to accomplish. Some aspects of the interface are hardcoded but in the future we would implement this to change depending on user inputs. We also would have liked to have a cleaner seperator page screen which would change depending on if the user selects the seperator page or not (and changes the screen as needed). Similarly, we would have liked to have been able to have a loading page which would relay real time the printing progress. 
 
 
 
