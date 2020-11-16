@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/seperatorPageStyle.css">
+    <link rel="stylesheet" href="../css/SeparatorPageStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Copier</title>
   </head>
@@ -23,9 +23,9 @@
     </div>
 
     <!--Separatar Content-->
-    <h1>Seperator Settings</h1>
-    <div id="SeperatorCheckBox">
-        <p>Use Seperator?</p>
+    <h1>Separator Settings</h1>
+    <div id="SeparatorCheckBox">
+        <p>Use Separator?</p>
         <input type="checkbox" id="choice2" name="choice2" value="No" checked>
         <label for="choice2"> No</label>
         <input type="checkbox" id="choice1" name="choice2" value="Yes">
@@ -36,20 +36,22 @@
     </div>  
     <div class="content" id="show_1">
       <h1 id = "accountInstruction">Select a Bin Source:</h1>
-      <button onclick="numPadInput('pin', 'A')" id = "seperator">A</button>
-      <button onclick="numPadInput('pin', 'B')" id = "seperator">B</button>
-      <button onclick="numPadInput('pin', 'C')" id = "seperator">C</button>
+      <button onclick="numPadInput('pin', 'A')" id = "Separator">A</button>
+      <button onclick="numPadInput('pin', 'B')" id = "Separator">B</button>
+      <button onclick="numPadInput('pin', 'C')" id = "Separator">C</button>
         
       </div>  
         <div class="content hide" id="show_2"></div>
       </div>
     -->
-    <div id="SeperatorSource">
-      <p>Seperator Paper Bin Source</p>
+    <!--Separator Paper Source-->
+    <div id="SeparatorSource">
+      <p>Separator Paper Bin Source</p>
+      <span title="Edit Paper Bin Source"><input class="PaperSource" value="A"></span>
     </div>
 
     <a href = "homePage.html"><button id = "Back">Back</button>
-    <a href = "seperatorPage.html"><button id = "Next">Next</button>
+    <a href = "SeparatorPage.html"><button id = "Next">Next</button>
     
     <!-- Keep Script tags at the end of body tag-->
     <script src="../js/main.js"></script>
