@@ -1,43 +1,33 @@
 @import "main.css";
 
-/* Home page buttons*/
-#HomePageButtons {
-  margin-top: 80px;
+/* Side page buttons*/
+#Sides p{
+  text-align: left;
+  margin-left: 50px;
 }
-#Logout {
-  width: 350px;
-  height: 100px;
-  background-color: #C4C4C4;
-}
+
 #yes {
-  width: 350px;
-  height: 100px;
-  background-color:#00FF00;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 220px;
+  height: 70px;
+  border-radius: 4px;
+  background-color:#5fb15f;
 }
 #yes:hover {
-  width: 350px;
-  height: 100px;
-  background-color:#228B22;
+  background-color:#a9dda9;
+  cursor: pointer;
 }
-
 
 #no {
-  width: 350px;
-  height: 100px;
-  background-color:#FF0000;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 220px;
+  height: 70px;
+  border-radius: 4px;
+  background-color:#cd7b7b;
 }
 #no:hover {
-  width: 350px;
-  height: 100px;
-  background-color:#8b0000;
-}
-
-#enter {
-  width: 758px;
-  height: 100px;
-  background-color:#A7C8D4 ;
-}
-#enter:hover {
-  background-color:#8ba3af ;
+  background-color:#d3aeae;
   cursor: pointer;
 }
