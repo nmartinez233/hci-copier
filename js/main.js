@@ -6,10 +6,21 @@ function numPadInput(inputId, buttonText) {
 
   if (buttonText == "Delete") {
     input.value = input.value.substring(0, length-1);
+    return;
+  }
+  else if (buttonText == "Clear") {
+    input.value = "";
+    return;
   }
   else if (buttonText == "Enter") {
-    input.value = "";
-    return; 
+    if (length != 4) {
+      alert("Must input 4 digits!");
+      return;
+    } else {
+      window.location.replace("pages/homePage.html");
+      input.value = "";
+      return; 
+    }
   }
   else {
     if (length >= 4) {

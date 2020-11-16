@@ -33,6 +33,7 @@ button:hover {
 
 /* Next and back button */
 #Next, #Back{
+  font-size: 40px;
   top: 520px;
   left: 300px;
   position: absolute;
@@ -49,7 +50,6 @@ button:hover {
 #Next {
   margin-left: 700px;
 }
-
 
 /*Style of upper main bar*/
 #MainBar {

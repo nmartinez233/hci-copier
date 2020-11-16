@@ -4,22 +4,23 @@
 button {
   border:none;
 }
-
-/*Brightness checkboxes*/
+/* Brightness checkboxes */
 #brightness{
   margin-top: 40px;
   z-index: 1;
   text-align: left;
   margin-left: 30px;
 }
+p{
+  font-size: 40px;
+}
 input[type='radio'] {
   -webkit-appearance:none;
-  width:30px;
-  height:30px;
+  width:40px;
+  height:40px;
   background:white;
   border-radius:5px;
   border:2px solid #555;
-
   float:left;
   margin-left: 44px;
 }
@@ -37,7 +38,7 @@ label{
 #numCopies {
   position: absolute;
   top: 200px;
-  left: 790px;
+  left: 750px;
   z-index: 2;
 }
 
@@ -47,8 +48,8 @@ input.NumCopies {
   font-size: 30px;
   text-align: center;
   position: absolute;
-  top: 20px;
-  left: 230px;
+  top: 30px;
+  left: 320px;
 }
 input.NumCopies:hover{
   cursor: pointer;
@@ -59,16 +60,16 @@ input.NumCopies:hover{
 #PaperSource {
   position: absolute;
   top: 340px;
-  left: 790px;
+  left: 750px;
 }
 input.PaperSource {
   width: 50px;
   height: 50px;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   position: absolute;
-  top: 20px;
-  left: 230px;
+  top: 30px;
+  left: 320px;
 }
 input.PaperSource:hover{
   cursor: pointer;
@@ -76,9 +77,10 @@ input.PaperSource:hover{
 }
 sm {
   float:left;
+  font-size: 30px;
   text-decoration: underline;
 }
-/*Numpad*/
+/* Numpad */
 #numpad{
   margin-top: 110px;
   background-color:#d3d7ed ;

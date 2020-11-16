@@ -4,13 +4,14 @@
   width: 600px;
   height: 100px;
   margin: 10px;
-  background-color: #e1ad76 ;
-}
+  background-color: #E5B557 ;
 
+}
 #CancelB {
   width: 600px;
-  height: 60px;
+  height: 100px;
   margin: 10px;
-  background-color: #b3acac;
-  color: rgb(31, 31, 31)
+  background-color: #C4C4C4;
+  color: rgb(31, 31, 31);
 }
+

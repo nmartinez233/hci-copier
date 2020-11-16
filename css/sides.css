@@ -7,6 +7,10 @@
 h1{
   text-align: center;
 }
+p{
+  font-size: 35px;
+}
+
 /*Checkboxes*/
 #CheckBox{
   text-align: left;
@@ -14,20 +18,21 @@ h1{
 }
 input[type='radio'] {
   -webkit-appearance:none;
-  width:30px;
-  height:30px;
+  width:40px;
+  height:40px;
   background:white;
   border-radius:5px;
   border:2px solid #555;
+ 
 
   float:left;
-  margin-left: 44px;
+  margin-left: 110px;
 }
 input[type='radio']:checked {
   background: rgb(51, 58, 72);
 }
 label{
-  font-size: 27px;
+  font-size: 35px;
   color: rgb(73, 69, 69);
   float:left;
   margin-left: 20px;
