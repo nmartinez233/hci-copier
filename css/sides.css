@@ -2,7 +2,7 @@
 
 #Sides {
   text-align: left;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 h1{
   text-align: center;
@@ -10,7 +10,7 @@ h1{
 /*Checkboxes*/
 #CheckBox{
   text-align: left;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 input[type='radio'] {
   -webkit-appearance:none;
