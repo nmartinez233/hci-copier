@@ -17,9 +17,10 @@ Report Issue
 Result of home icon
 Logout
 ________________________
+[Val]
 Bright, Dark button Icon with degree of darkness  (default normal) // skip
 Copies: better to only have a type option 
-Paper Source Button [default]
+Paper Source Button 
 ________________________
 Bin Settings Icons
 Have defaults set
