@@ -40,7 +40,7 @@ Final button: Print (Different colour)
 Edit for each option (or go back to first page)
 How many pages used 
 
-Loading Page
+[Melanie] Loading Page
 How many pages have been printed
 Has dynamic printer status
 Cancel/Pause button 

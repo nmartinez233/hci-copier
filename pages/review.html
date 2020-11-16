@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../css/review.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Copier</title>
+  </head>
+  <body>
+    
+    <!--Upper bar (Main Buttons)-->
+    <div id = MainBar> 
+      <a href="../index.html"><button id ="HomeIconButton"><i class="fa fa-home"></i></button></a>
+      
+      <a href="../index.html"><button id ="QuestionIconButton"><i class="fa fa-question-circle"></i></button></a>
+      <p id="datetime"></p>
+      <p id="inkPercentage">Black Ink: 80%</p>
+      <script>
+        var dt = new Date();
+        let date = dt.toLocaleTimeString();
+        document.getElementById("datetime").innerHTML = date.slice(0,-6) + date.slice(-3);
+      </script>
+    </div>
+
+    <!--Home Page Buttons-->
+        <a href="../pages/seperator_page.html"><button id = "print">Edit Seperator Page</button></a>
+
+        <a href="../pages/sides.html"><button id = "print">Edit <br>Sides</button></a>
+        
+      <a href="../pages/brightness.html"><button id = "print">Edit <br>Brightness</button></a>
+      
+    <div>
+        
+        <a href="../index.html"><button id = no >Cancel <br>Print<br></button></a>
+        
+        <a href="homePage.html"><button id = yes >Print <br>20 Pages will be used</button></a>
+</div>
+    
+    <!-- Keep Script tags at the end of body tag-->
+    <script src="../js/main.js"></script>
+
+   
+  </body>
+</html>
+
+
