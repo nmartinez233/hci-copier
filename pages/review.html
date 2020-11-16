@@ -10,12 +10,22 @@
     
     <!--Upper bar (Main Buttons)-->
     <div id = MainBar> 
-      <a href="../index.html"><button id ="HomeIconButton"><i class="fa fa-home"></i></button></a>
-      
-      <a href="../index.html"><button id ="QuestionIconButton"><i class="fa fa-question-circle"></i></button></a>
+      <button id ="HomeIconButton" onclick="homeCall()"><i class="fa fa-home"></i></button></a>
+      <button id ="QuestionIconButton" onclick="a()"><i class="fa fa-close"></i></button>
+
       <p id="datetime"></p>
-      <p id="inkPercentage">Black Ink: 80%</p>
+      <p id="inkPercentage">Ink: <img src="../ink.png" style="max-height: 20px;"></p>
       <script>
+        function a() {
+          if (confirm('Are you sure you want to cancel your current job?')) {
+            window.location = 'homePage.html'
+          }
+        }
+        function homeCall(){
+          if (confirm('This will cancel your current job. Proceed to Home?')) {
+            window.location = 'homePage.html'
+          }
+        }
         var dt = new Date();
         let date = dt.toLocaleTimeString();
         document.getElementById("datetime").innerHTML = date.slice(0,-6) + date.slice(-3);

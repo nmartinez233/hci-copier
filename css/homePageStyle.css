@@ -20,3 +20,9 @@
   height: 100px;
   background-color:#AAC6D1;
 }
+
+#QuestionIconButton{
+  background-color:  #92abeb;
+  float:right;
+  border:none;
+}

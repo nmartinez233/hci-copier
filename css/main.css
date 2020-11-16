@@ -64,9 +64,12 @@ button:hover {
   float: left;
 }
 #HomeIconButton{
+  border: 4px solid rgb(137, 160, 250);
   float:left;
 }
 #QuestionIconButton{
+  background-color: #d3a299;
+  border: 4px solid rgb(206, 135, 135);
   float:right;
 }
 #datetime, #inkPercentage {
