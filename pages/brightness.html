@@ -1,6 +1,69 @@
-<div>
-  <input type="range" id="opacity-slider" min=".4" max="1" step=".01" value="1">
-  <p>
-    aksdjf;lajsd ;flajsd;lfkjas;d klfjas;dlk fja;lksjd;flkajs ;dlkfja;lskdjf;lak sjd;flkajs
-  </p>
-</div>
+<!Doctype html>
+<html>
+<style>
+.btn-group button {
+  background-color: #AAC6D1; /* Green background */
+  border: 1px solid blue; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #3e8e41;
+}
+</style>
+<body>
+
+<h1>Select Paper Source</h1>
+
+<div class="btn-group">
+  <button>Bin A <br> 100 sheets</button>
+  <button>Bin B<br> 65 sheets </button>
+  <button>Bin C <br> 23 sheets</button><br><br>
+
+
+<html>
+<body>
+
+
+<h1><br>Select Brightness Type</h1>
+
+<form action="/action_page.php">
+  <input type="checkbox" id="choice1" name="choice1" value="Bright">
+  <label for="choice1"> Brighter</label><br>
+  <input type="checkbox" id="choice2" name="choice2" value="Normal">
+  <label for="choice2"> Normal</label><br>
+  <input type="checkbox" id="choice3" name="choice3" value="Dark">
+  <label for="choice3"> Darker</label><br><br>
+
+<h1>Number of copies to make</h1>
+
+<input type="number" id="myNumber" value="2"><br><br>
+<input type="submit" value="Submit">
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myNumber").value;
+  document.getElementById("demo").innerHTML = x;
+}
+
+</body>
+</html>
+
+
