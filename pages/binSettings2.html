@@ -1,8 +1,9 @@
+<!--Bin Page Buttons for the Page Separatar page-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/sides.css">
+    <link rel="stylesheet" href="../css/binSettingStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Copier</title>
   </head>
@@ -22,24 +23,21 @@
       </script>
     </div>
 
-    <!--Side Settings Page Buttons-->
-    <div id = "Sides">
-      <h1>Paper Orientation</h1>
-      <p id = "accountInstruction">Is your copy single or double-sided?</p>
-      <button id=no onclick="numPadInput('pin', 'N')">Single</button>
-      <button id=yes onclick="numPadInput('pin', 'Y')">Double</button>
-      
-      <p id = "accountInstruction">Do you want your copies double sided?</p>
-      <button id=no onclick="numPadInput('pin', 'N')">No</button>
-      <button id=yes onclick="numPadInput('pin', 'Y')">Yes</button>
+    <h1>Select a Paper Bin Source:</h1>
+    <!--Bin Page Buttons-->
+    <div class="content">
+      <a href=""><button id = "A" class ="bins">A<p> 100 Sheets</p></button></a>
+      <a href=""><button id = "B" class ="bins">B<p> 65 Sheets</p></button></a>
+      <a href=""><button id = "C" class ="bins">C<p> 23 Sheets</p></button></a>
     </div>
-    
-    <a href = "homePage.html"><button id = "Back">Back</button>
-    <a href = "SeparatorPage.html"><button id = "Next">Next</button>
-      
+
+    <a href = "seperatorPage.html"><button id = "Back">Back</button>
+        
     <!-- Keep Script tags at the end of body tag-->
     <script src="../js/main.js"></script>
 
    
   </body>
 </html>
+
+

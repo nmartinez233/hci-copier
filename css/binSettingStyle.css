@@ -1,0 +1,24 @@
+@import "main.css";
+
+/* Bin Settings page buttons*/
+.bins {
+  margin-top: 80px;
+  width: 200px;
+  height: 250px;
+  margin: 10px;
+  font-size: 40px;
+  font-weight: bold;
+}
+#A{
+  background-color: #d7a88e ;
+}
+#B{
+  background-color: #909fd8 ;
+}
+#C{
+  background-color: #edd074 ;
+}
+p.bins{
+  font-weight: normal;
+  color: #4f4d4d;
+}
