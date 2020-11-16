@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/seperator_page.css">
+    <link rel="stylesheet" href="../css/seperatorPageStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Copier</title>
   </head>
@@ -22,35 +22,34 @@
       </script>
     </div>
 
-    <!--Home Page Buttons-->
-    <div>
-        <h1 id = "seperatorPage">Do you want a seperator page?</h1>
-        
-        <button id = no onclick="switch_div(2);">No</button>
-        
+    <!--Separatar Content-->
+    <h1>Seperator Settings</h1>
+    <div id="SeperatorCheckBox">
+        <p>Use Seperator?</p>
+        <input type="checkbox" id="choice2" name="choice2" value="No" checked>
+        <label for="choice2"> No</label>
+        <input type="checkbox" id="choice1" name="choice2" value="Yes">
+        <label for="choice1">Yes</label><br>
+    </div>
+        <!--<button id = no onclick="switch_div(2);">No</button>
         <button id = yes onclick="switch_div(1);">Yes</button>
-        
     </div>  
-      
-
-      
     <div class="content" id="show_1">
-        <h1 id = "accountInstruction">Select a Bin Source:</h1>
-        
+      <h1 id = "accountInstruction">Select a Bin Source:</h1>
       <button onclick="numPadInput('pin', 'A')" id = "seperator">A</button>
-        
-        <button onclick="numPadInput('pin', 'B')" id = "seperator">B</button>
-        
-        <button onclick="numPadInput('pin', 'C')" id = "seperator">C</button>
-        
-        
+      <button onclick="numPadInput('pin', 'B')" id = "seperator">B</button>
+      <button onclick="numPadInput('pin', 'C')" id = "seperator">C</button>
         
       </div>  
-      <div class="content hide" id="show_2">
-          </div>
-      
-      <div><a href="homePage.html"><button onclick="numPadInput('pin', 'Enter')" id = "enter">Enter</button></a>
+        <div class="content hide" id="show_2"></div>
       </div>
+    -->
+    <div id="SeperatorSource">
+      <p>Seperator Paper Bin Source</p>
+    </div>
+
+    <a href = "homePage.html"><button id = "Back">Back</button>
+    <a href = "seperatorPage.html"><button id = "Next">Next</button>
     
     <!-- Keep Script tags at the end of body tag-->
     <script src="../js/main.js"></script>

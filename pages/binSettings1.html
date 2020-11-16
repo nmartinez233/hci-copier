@@ -1,8 +1,9 @@
+<!--Bin Page Buttons for the Printing Settings Page -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/homePageStyle.css">
+    <link rel="stylesheet" href="../css/binSettingStyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Copier</title>
   </head>
@@ -22,20 +23,21 @@
       </script>
     </div>
 
-    <!--Home Page Buttons-->
-    <div id = "HomePageButtons">
-      <a href="printSettings.html">
-        <button id="NewCopy">Make copies</button>
-      </a>
-      <br />
-      <a href=""><button id="JobStatus">Job Status</button></a>
-      <a href="../index.html"><button  id="Logout">Logout</button></a>
-      <a href=""><p>Report an issue</p></a>
+    <h1>Select a Paper Bin Source:</h1>
+    <!--Bin Page Buttons-->
+    <div class="content">
+      <a href="seperatorPage.html"><button id = "A" class ="bins">A<p> 100 Sheets</p></button></a>
+      <a href="seperatorPage.html"><button id = "B" class ="bins">B<p> 65 Sheets</p></button></a>
+      <a href="seperatorPage.html"><button id = "C" class ="bins">C<p> 23 Sheets</p></button></a>
     </div>
-    
+
+    <a href = "printSettings.html"><button id = "Back">Back</button>
+        
     <!-- Keep Script tags at the end of body tag-->
     <script src="../js/main.js"></script>
 
    
   </body>
 </html>
+
+

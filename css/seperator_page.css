@@ -1,14 +1,5 @@
 @import "main.css";
 
-/* Home page buttons*/
-#HomePageButtons {
-  margin-top: 80px;
-}
-#Logout {
-  width: 350px;
-  height: 100px;
-  background-color: #C4C4C4;
-}
 #yes {
   width: 350px;
   height: 100px;

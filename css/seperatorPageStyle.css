@@ -1,0 +1,35 @@
+@import "main.css";
+
+/*Checkboxes*/
+#SeperatorCheckBox{
+  margin-top: 40px;
+  text-align: left;
+  margin-left: 30px;
+}
+input[type='checkbox'] {
+  -webkit-appearance:none;
+  width:30px;
+  height:30px;
+  background:white;
+  border-radius:5px;
+  border:2px solid #555;
+
+  float:left;
+  margin-left: 44px;
+}
+input[type='checkbox']:checked {
+  background: rgb(51, 58, 72);
+}
+label{
+  font-size: 27px;
+  color: rgb(73, 69, 69);
+  float:left;
+  margin-left: 20px;
+}
+
+/*Paper Source*/
+#SeperatorSource {
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: left;
+}
