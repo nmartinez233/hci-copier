@@ -27,9 +27,32 @@
       <h1>Print Settings</h1>
 
       <!--Number Copies-->
-      <div id="numCopies">
+      <div onclick="getNumPad()" id="numCopies">
         <p class="NumCopies">Number of Copies</p>
-        <span title="Edit Number of Copies"><input class="NumCopies" value="1"></span>
+        <span title="Edit Number of Copies"><input id="copy"class="NumCopies" value="1"></span>
+      </div>
+
+      <!-- Numpad -->
+      <div id ="numpad">
+        <div>
+          <button onclick="numPadInput('copy', '1')">1</button>
+          <button onclick="numPadInput('copy', '2')">2</button>
+          <button onclick="numPadInput('copy', '3')">3</button>
+        </div>  
+        <div>
+          <button onclick="numPadInput('copy', '4')">4</button>
+          <button onclick="numPadInput('copy', '5')">5</button>
+          <button onclick="numPadInput('copy', '6')">6</button>
+        </div>  
+        <div>
+          <button onclick="numPadInput('copy', '7')">7</button>
+          <button onclick="numPadInput('copy', '8')">8</button>
+          <button onclick="numPadInput('copy', '9')">9</button></div>  
+        <div>
+          <button onclick="clearNumPad()">Done</button>
+          <button onclick="numPadInput('copy', '0')">0</button>
+          <button onclick="numPadInput('copy', 'Delete')" id = "delete">Delete</button>
+        </div>
       </div>
 
        <!--Paper Source-->
@@ -51,12 +74,14 @@
         <label for="choice3"> Dark</label><br><br>
       </div>
     </div>
+      
 
-    <a href = "homePage.html"><button id = "Back">Back</button>
-    <a href = "sides.html"><button id = "Next">Next</button>
+    <a href = "homePage.html"><button id = "Back">Back</button></a>
+    <a href = "sides.html"><button id = "Next">Next</button></a>
     
     <!-- Keep Script tags at the end of body tag-->
     <script src="../js/main.js"></script>
+    <script src="../js/printSettingScript.js"></script>
 
 
 

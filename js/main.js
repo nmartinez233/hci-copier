@@ -1,6 +1,5 @@
 
 
-
 function numPadInput(inputId, buttonText) {
   let input = document.getElementById(inputId);
   let length = input.value.length;
@@ -16,7 +15,15 @@ function numPadInput(inputId, buttonText) {
     if (length >= 4) {
       return;
     }
-    input.value = input.value + "*";//input.value + buttonText;
+    // If the input is for numcopies
+    if (inputId =="copy"){
+      if (length >= 3) {
+        alert("Cannot have more than 999 copies!");
+      }
+      input.value = input.value + buttonText;
+    } else {
+      input.value = input.value + "*";
+    }
   }
 }
 
@@ -24,3 +31,7 @@ function switch_div(show) {
   document.getElementById("show_"+show).style.display = "block";
   document.getElementById("show_"+((show==1)?2:1)).style.display = "none";
 }
+
+
+    
+
