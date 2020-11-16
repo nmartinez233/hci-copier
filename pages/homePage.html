@@ -10,12 +10,16 @@
     
     <!--Upper bar (Main Buttons)-->
     <div id = MainBar> 
-      <a href="../index.html"><button id ="HomeIconButton"><i class="fa fa-home"></i></button></a>
-      
-      <a href="../index.html"><button id ="QuestionIconButton"><i class="fa fa-question-circle"></i></button></a>
+      <button id ="HomeIconButton"><i class="fa fa-home"></i></button></a>
+      <button id ="QuestionIconButton" onclick="a()"><i class="fa fa-question-circle"></i></button>
+
       <p id="datetime"></p>
-      <p id="inkPercentage">Black Ink: 80%</p>
+      <p id="inkPercentage">Ink: <img src="../ink.png" style="max-height: 20px;"></p>
       <script>
+        function a() {
+          alert("To Report Any Issues, call 555-5555");
+        }
+        
         var dt = new Date();
         let date = dt.toLocaleTimeString();
         document.getElementById("datetime").innerHTML = date.slice(0,-6) + date.slice(-3);
