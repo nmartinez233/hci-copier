@@ -1,6 +1,10 @@
 @import "main.css";
 @import "accountLoginStyle.css";
 
+button {
+  border:none;
+}
+
 /*Brightness checkboxes*/
 #brightness{
   margin-top: 40px;
@@ -8,7 +12,7 @@
   text-align: left;
   margin-left: 30px;
 }
-input[type='checkbox'] {
+input[type='radio'] {
   -webkit-appearance:none;
   width:30px;
   height:30px;
@@ -19,7 +23,7 @@ input[type='checkbox'] {
   float:left;
   margin-left: 44px;
 }
-input[type='checkbox']:checked {
+input[type='radio']:checked {
   background: rgb(51, 58, 72);
 }
 label{
@@ -70,11 +74,20 @@ input.PaperSource:hover{
   cursor: pointer;
   background-color: rgb(228, 224, 219);
 }
-
+sm {
+  float:left;
+  text-decoration: underline;
+}
+/*Numpad*/
 #numpad{
   margin-top: 110px;
   background-color:#d3d7ed ;
   z-index: 3;
   display: none;
 }
+#pad{
+  border: 1px solid#A1A6C2 ;
+}
+
+
 

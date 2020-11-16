@@ -11,7 +11,6 @@
     <!--Upper bar (Main Buttons)-->
     <div id = MainBar> 
       <button id ="HomeIconButton" onclick="homeCall()"><i class="fa fa-home"></i></button></a>
-      
       <button id ="QuestionIconButton" onclick="a()"><i class="fa fa-question-circle"></i></button>
 
       <p id="datetime"></p>
@@ -46,35 +45,31 @@
       <!-- Numpad -->
       <div id ="numpad">
         <div>
-          <button onclick="numPadInput('copy', '1')">1</button>
-          <button onclick="numPadInput('copy', '2')">2</button>
-          <button onclick="numPadInput('copy', '3')">3</button>
+          <button id="pad" onclick="numPadInput('copy', '1')">1</button>
+          <button id="pad" onclick="numPadInput('copy', '2')">2</button>
+          <button id="pad" onclick="numPadInput('copy', '3')">3</button>
         </div>  
         <div>
-          <button onclick="numPadInput('copy', '4')">4</button>
-          <button onclick="numPadInput('copy', '5')">5</button>
-          <button onclick="numPadInput('copy', '6')">6</button>
+          <button id="pad" onclick="numPadInput('copy', '4')">4</button>
+          <button id="pad" onclick="numPadInput('copy', '5')">5</button>
+          <button id="pad" onclick="numPadInput('copy', '6')">6</button>
         </div>  
         <div>
-          <button onclick="numPadInput('copy', '7')">7</button>
-          <button onclick="numPadInput('copy', '8')">8</button>
-          <button onclick="numPadInput('copy', '9')">9</button></div>  
+          <button id="pad" onclick="numPadInput('copy', '7')">7</button>
+          <button id="pad" onclick="numPadInput('copy', '8')">8</button>
+          <button id="pad" onclick="numPadInput('copy', '9')">9</button></div>  
         <div>
-          <button onclick="clearNumPad()">Done</button>
-          <button onclick="numPadInput('copy', '0')">0</button>
-          <button onclick="numPadInput('copy', 'Delete')" id = "delete">Delete</button>
+          <button id="pad" onclick="clearNumPad()">Done</button>
+          <button id="pad" onclick="numPadInput('copy', '0')">0</button>
+          <button id="pad" onclick="numPadInput('copy', 'Delete')" id = "delete">Delete</button>
         </div>
       </div>
 
        <!--Paper Source-->
        <div id="PaperSource">
-        
         <p class="PaperSource">Paper Bin Source</p>
-        <sm> 
-          <a href = "binSettings1.html">
-            edit bin
-          </a>
-        </sm>
+        <a href = "binSettings1.html">
+        <sm> Edit Bin Source</sm>
         <span title="Edit Paper Bin Source"><input class="PaperSource" value="A"></span>
         </a>
       </div>
