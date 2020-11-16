@@ -10,7 +10,7 @@
     
     <!--Upper bar (Main Buttons)-->
     <div id = MainBar> 
-      <a href="homePage.html"><button id ="HomeIconButton"><i class="fa fa-home"></i></button></a>
+      <button id ="HomeIconButton" onclick="homeCall()"><i class="fa fa-home"></i></button></a>
       
       <button id ="QuestionIconButton" onclick="a()"><i class="fa fa-question-circle"></i></button>
 
@@ -21,6 +21,12 @@
           alert("To Report Any Issues, call 555-5555");
         }
 
+        function homeCall(){
+          if (confirm('This will cancel your current job. Proceed to Home?')) {
+            window.location = 'homePage.html'
+          }
+        }
+        
         var dt = new Date();
         let date = dt.toLocaleTimeString();
         document.getElementById("datetime").innerHTML = date.slice(0,-6) + date.slice(-3);

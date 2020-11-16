@@ -11,24 +11,35 @@
     
     <!--Upper bar (Main Buttons)-->
     <div id = MainBar> 
-      <a href="../index.html"><button id ="HomeIconButton"><i class="fa fa-home"></i></button></a>
+      <button id ="HomeIconButton" onclick="homeCall()"><i class="fa fa-home"></i></button></a>
       
-      <a href="../index.html"><button id ="QuestionIconButton"><i class="fa fa-question-circle"></i></button></a>
+      <button id ="QuestionIconButton" onclick="a()"><i class="fa fa-question-circle"></i></button>
+
       <p id="datetime"></p>
-      <p id="inkPercentage">Black Ink: 80%</p>
+      <p id="inkPercentage">Ink: <img src="../ink.png" style="max-height: 20px;"></p>
       <script>
+        function a() {
+          alert("To Report Any Issues, call 555-5555");
+        }
+
+        function homeCall(){
+          if (confirm('This will cancel your current job. Proceed to Home?')) {
+            window.location = 'homePage.html'
+          }
+        }
+        
         var dt = new Date();
         let date = dt.toLocaleTimeString();
         document.getElementById("datetime").innerHTML = date.slice(0,-6) + date.slice(-3);
       </script>
     </div>
 
-    <h1>Select a Paper Bin Source:</h1>
+    <h1>Select a Seperator Bin Source:</h1>
     <!--Bin Page Buttons-->
     <div class="content">
-      <a href=""><button id = "A" class ="bins">A<p> 100 Sheets</p></button></a>
-      <a href=""><button id = "B" class ="bins">B<p> 65 Sheets</p></button></a>
-      <a href=""><button id = "C" class ="bins">C<p> 23 Sheets</p></button></a>
+      <a href="./separatorPage.html"><button id = "A" class ="bins">A<p> 100 Sheets</p></button></a>
+      <a href="./separatorPage.html"><button id = "B" class ="bins">B<p> 65 Sheets</p></button></a>
+      <a href="./separatorPage.html"><button id = "C" class ="bins">C<p> 23 Sheets</p></button></a>
     </div>
 
     <a href = "seperatorPage.html"><button id = "Back">Back</button>

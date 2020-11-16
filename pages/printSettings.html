@@ -10,12 +10,23 @@
     
     <!--Upper bar (Main Buttons)-->
     <div id = MainBar> 
-      <a href="../index.html"><button id ="HomeIconButton"><i class="fa fa-home"></i></button></a>
+      <button id ="HomeIconButton" onclick="homeCall()"><i class="fa fa-home"></i></button></a>
       
-      <a href="../index.html"><button id ="QuestionIconButton"><i class="fa fa-question-circle"></i></button></a>
+      <button id ="QuestionIconButton" onclick="a()"><i class="fa fa-question-circle"></i></button>
+
       <p id="datetime"></p>
-      <p id="inkPercentage">Black Ink: 80%</p>
+      <p id="inkPercentage">Ink: <img src="../ink.png" style="max-height: 20px;"></p>
       <script>
+        function a() {
+          alert("To Report Any Issues, call 555-5555");
+        }
+
+        function homeCall(){
+          if (confirm('This will cancel your current job. Proceed to Home?')) {
+            window.location = 'homePage.html'
+          }
+        }
+        
         var dt = new Date();
         let date = dt.toLocaleTimeString();
         document.getElementById("datetime").innerHTML = date.slice(0,-6) + date.slice(-3);
@@ -34,25 +45,31 @@
 
        <!--Paper Source-->
        <div id="PaperSource">
-        <a href = "binSettings1.html">
+        
         <p class="PaperSource">Paper Bin Source</p>
+        <sm> 
+          <a href = "binSettings1.html">
+            edit bin
+          </a>
+        </sm>
         <span title="Edit Paper Bin Source"><input class="PaperSource" value="A"></span>
         </a>
       </div>
 
       <!--Brightness Settings-->
       <div id="brightness">
-        <p id="brightness">Paper Brightness</p>
-        <input type="checkbox" id="choice2" name="choice2" value="Normal" checked>
+        <p id="brightness">Brightness</p>
+        <input type="radio" id="choice2" name="choice2" value="Brighter">
+        <label for="choice2"> Brighter</label><br><br>
+        <input type="radio" id="choice2" name="choice2" value="Normal" checked>
         <label for="choice2"> Normal</label><br><br>
-        <input type="checkbox" id="choice1" name="choice2" value="Bright">
-        <label for="choice1"> Bright</label><br><br>
-        <input type="checkbox" id="choice3" name="choice3" value="Dark">
-        <label for="choice3"> Dark</label><br><br>
+        <input type="radio" id="choice2" name="choice2" value="Darker">
+        <label for="choice2"> Darker</label><br><br>
+
       </div>
     </div>
 
-    <a href = "homePage.html"><button id = "Back">Back</button>
+    <a href = "homePage.html"><button id = "Back">Cancel</button>
     <a href = "sides.html"><button id = "Next">Next</button>
     
     <!-- Keep Script tags at the end of body tag-->
