@@ -1,9 +1,8 @@
-<!--Bin Page Buttons for the Page Separatar page-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="../css/binSettingStyle.css">
+    <link rel="stylesheet" href="../css/loadingdone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Copier</title>
   </head>
@@ -34,21 +33,48 @@
       </script>
     </div>
 
-    <h1>Select a Seperator Bin Source:</h1>
-    <!--Bin Page Buttons-->
-    <div class="content">
-      <a href="./separatorPage.html"><button id = "A" class ="bins">A<p> 100 Sheets</p></button></a>
-      <a href="./separatorPage.html"><button id = "B" class ="bins">B<p> 65 Sheets</p></button></a>
-      <a href="./separatorPage.html"><button id = "C" class ="bins">C<p> 23 Sheets</p></button></a>
+    <br><br>
+    <h1>
+      <div id="printstatus"> Printing Pages...</div>
+      <script>
+        document.onload = setTimeout(changeText(), 10000);
+
+        function changeText(){
+          document.getElementById("printstatus").innerHTML = "Done Printing"
+        }
+
+        
+        
+        
+      </script>
+    </h1>
+
+    <div id = "PrintingButtons">
+      <br><br>
+      <a href="homePage.html">
+        <button id="PauseB"> Pause</button>
+      </a>
+      <br><br>
+      <a href="../index.html">
+        <button id="CancelB">Cancel</button>
+      </a>
+      <script>
+        function changeText2(){
+          document.getElementById("PauseB").innerHTML = "Return Home"
+          document.getElementById("CancelB").innerHTML = "Logout"
+        }
+
+        document.onload = setTimeout(changeText2(), 10000);
+        
+        
+      </script>
     </div>
 
-    <a href = "seperatorPage.html"><button id = "Back">Back</button>
-        
+
+   
     <!-- Keep Script tags at the end of body tag-->
     <script src="../js/main.js"></script>
 
    
   </body>
 </html>
-
-
