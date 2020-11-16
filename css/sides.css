@@ -1,9 +1,16 @@
 @import "main.css";
 
+#Sides {
+  text-align: left;
+  margin-left: 30px;
+}
+h1{
+  text-align: center;
+}
 /*Checkboxes*/
 #CheckBox{
   text-align: left;
-  margin-left: 250px;
+  margin-left: 70px;
 }
 input[type='radio'] {
   -webkit-appearance:none;
