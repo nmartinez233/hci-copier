@@ -2,15 +2,15 @@
 
 #PauseB {
   width: 600px;
-  height: 50px;
+  height: 100px;
   margin: 10px;
-  background-color: #FF9627 ;
+  background-color: #e1ad76 ;
 }
 
 #CancelB {
   width: 600px;
-  height: 50px;
+  height: 60px;
   margin: 10px;
-  background-color: #545151;
-  color: white
+  background-color: #b3acac;
+  color: rgb(31, 31, 31)
 }
