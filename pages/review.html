@@ -23,34 +23,41 @@
     </div>
 
     <!--Home Page Buttons-->
-      <h1>Review Copy Settings:</h1>
-      <button id = "print">Yes, from Bin A</button>
+    <h1>Review Print Settings</h1>
+    <div class="review">
+      <p class="review">Num Copies: 10</p>
+      <p class="review">Brightness: Bright</p>
+      <p class="review">Paper Bin Source: A</p>
+      <a href="printSettings.html"><p id = "printlink" class="review">Edit Print Settings</p></a>
+      <p class="review" id = "line">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
 
-        <button id = "print">2-->1 <br></button>
+      <p class="review">Paper Orientation: 2->1</p>
+      <a href="sides.html"><p id = "sidelink" class="review">Edit Orientation Settings</p></a>
+      <p class="review" id = "line">━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+      
+      <p class="review">Use Separator: Yes</p>
+      <p class="review">Separator Paper Source: A</p>
+      <a href="separatorPage.html"><p id = "separatorlink" class="review">Edit Separator Settings</p></a>
+      <br>
+      <!--
+        <p>20 Copies, Double Sided&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <a href="brightness.html"><button id = "print">Edit</button></a></p>
         
-      <button id = "print"> Bright</button>
-      
-      
-      
-        <a href="../pages/seperator_page.html"><button id = "print">Edit Seperator Page</button></a>
-
-        <a href="../pages/sides.html"><button id = "print">Edit <br>Sides</button></a>
+        <p>Using 20 pages from Bin A&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;
+            <a href="sides.html"><button id = "print">Edit Sides</button></a></p>
         
-      <a href="../pages/brightness.html"><button id = "print">Edit <br>Brightness</button></a>
-      
-      
-      
+        <p>Including Seperator Page from Bin C&emsp;&emsp;&emsp;
+            &nbsp;<a href="separatorPage.html"><button id = "print">Edit Seperator Page</button></a></p>
+      -->
+    </div>
     <div>
-        
-        <a href="../index.html"><button id = no >Cancel <br>Print<br></button></a>
-        
-        <a href="homePage.html"><button id = yes >Print <br>20 Pages will be used</button></a>
-</div>
-    
+      <a href="homePage.html"><button id = no>Cancel Print</button></a>
+      <a href="homePage.html"><button id = yes >Print</button></a>
+    </div>
     <!-- Keep Script tags at the end of body tag-->
     <script src="../js/main.js"></script>
-
-   
   </body>
 </html>
 
